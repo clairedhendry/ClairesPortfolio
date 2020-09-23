@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 export default class Project extends React.Component {
 
 state = {
@@ -13,6 +13,7 @@ state = {
         return (
             <div className="project">
                 <h2>{this.state.title}</h2>
+                
             </div>
         )
     }

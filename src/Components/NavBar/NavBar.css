@@ -11,6 +11,9 @@
 .links {
     display: flex;
     flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .links > a {
@@ -22,6 +25,7 @@
 .links > a:hover {
     text-shadow: 2px 2px 4px #3cd0fd;
     cursor: pointer;
+    color:  #3cd0fd;
 }
 
 .logo {
@@ -30,4 +34,7 @@
     background-image: url('../../Images/logo.svg');
     margin-left: auto;
     margin-right: auto;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
