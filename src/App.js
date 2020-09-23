@@ -4,23 +4,16 @@ import './App.css';
 
 import Header from './Components/Header/Header';
 import Navbar from './Components/NavBar/NavBar';
-import About from './Components/Main/About/About';
-import Contact from './Components/Main/Contact/Contact';
-import ProjectPage from './Components/Main/Projects/ProjectPage';
-import PageNotFound from './Components/PageNotFound';
+import Footer from './Components/Footer/Footer';
+import Main from './Components/Main/Main'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <div></div>
-        <Switch>
-          <Route exact path="/" component={ProjectPage} />
-          <Route path="/About" component={About} />
-          <Route path="/Contact" component={Contact} />
-          <Route path="/ProjectPage" component={ProjectPage} />
-          <Route component={PageNotFound} />
-        </Switch>
+        <Main/>
+        <Footer />
     </div>
   );
 }
