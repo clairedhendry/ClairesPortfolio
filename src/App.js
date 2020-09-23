@@ -12,9 +12,8 @@ import PageNotFound from './Components/PageNotFound';
 function App() {
   return (
     <div className="App">
-      Claire's Portfolio Site
-      <Header />
       <Navbar />
+      <div></div>
         <Switch>
           <Route exact path="/" component={ProjectPage} />
           <Route path="/About" component={About} />
