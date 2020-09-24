@@ -1,3 +1,4 @@
+@media screen and (min-width: 1000px) {
 .projects-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -6,18 +7,6 @@
     padding: 50px;
 }
 
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
 }
 
-.project {
-    color: white;
-    animation: fadeInAnimation ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
+

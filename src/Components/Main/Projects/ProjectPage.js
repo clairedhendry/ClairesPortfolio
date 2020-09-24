@@ -11,9 +11,9 @@ const project = projects.map(project => <Project
     key={project.id} 
     id={project.id}
     title={project.title}
-    source={project.source}
+    url={project.url}
+    img={project.img}
     description={project.description}
-    live={project.live}
     client_repo={project.client_repo}
     api_repo={project.api_repo}
     />)

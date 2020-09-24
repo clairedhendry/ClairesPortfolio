@@ -1,0 +1,64 @@
+.project {
+    background-color: white;
+    border: solid 3px black;
+    border-radius: 25px;
+    margin: 15px 15px 15px 15px;
+    color: black;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    padding-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.project-img {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.project > a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: 2px 2px 4px #3cd0fd;
+    cursor: pointer;
+    color:  #3cd0fd;
+}
+
+.repos > a {
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.repos > a:hover {
+        text-shadow: 2px 2px 4px #3cd0fd;
+        cursor: pointer;
+        color:  #3cd0fd;
+}
+
+.description {
+    padding: 50px;
+    font-size: medium;
+}

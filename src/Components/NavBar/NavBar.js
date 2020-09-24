@@ -6,7 +6,6 @@ export default function NavBar() {
 
     return (
         <div className="navBar-container">
-            <div className="logo"></div>
             <div className="links">
                 <Link to="/About">About</Link>
                 <Link to="/Projects">Projects</Link>
