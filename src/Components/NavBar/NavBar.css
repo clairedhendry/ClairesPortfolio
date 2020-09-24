@@ -1,3 +1,4 @@
+@media screen and (max-width: 1299px) {
 
 .navBar-container {
     text-align: center;
@@ -10,18 +11,30 @@
     top: 0;
 }
 
-
 .links {
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: rgb(53, 53, 53);
 }
 
+.name {
+    display: none;
+}
+
+p {
+    color: black;
+    font-size: 20pt;
+}
+
 .links > a {
     color: white;
     text-decoration: none;
-    padding: 25px 15px 0px 15px;
+    padding: 25px 10px 0px 10px;
 }
+
+
+}
+
 
 .links > a:hover {
     text-shadow: 2px 2px 4px #3cd0fd;
@@ -29,16 +42,19 @@
     color:  #3cd0fd;
 }
 
-@media screen and (min-width: 1000px) {
+
+
+@media screen and (min-width: 1300px) {
 
 .navBar-container {
     height: 80vh;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     background-color: rgb(53, 53, 53);
     margin: 50px 0px 50px 50px;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    grid-area: 2 / 1;
 }
 
 .links {
@@ -48,5 +64,40 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+
+.links > a {
+    color: white;
+    text-decoration: none;
+    padding: 25px 15px 0px 15px;
+}
+
+
+.nav-logo-container {
+    width: 95%;
+    height: 130px;
+    padding: 15px 0px 15px 0px;
+    margin: 15px auto 0 auto;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.nav-logo {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../../Images/logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+
+p {
+    color: white;
+    font-size: 20pt;
+
+}
+
 
 }

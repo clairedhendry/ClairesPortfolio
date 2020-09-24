@@ -5,7 +5,7 @@ export default function Footer() {
 
     return (
         <div className="footer">
-            Footer
+            Claire Hendry 2020
         </div>
     )
 }
