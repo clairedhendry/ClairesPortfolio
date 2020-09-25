@@ -12,8 +12,8 @@
 }
 
 h2 {
+    margin-left: 30px;
     margin-right: auto;
-    margin-left: 40px;
 }
 
 .project-img {
@@ -39,6 +39,10 @@ a:hover {
     color:  #3cd0fd;
 }
 
+.repos {
+    margin-left: 15px;
+}
+
 .repos > a {
     color: white;
     padding: 20px;
@@ -59,6 +63,6 @@ a:hover {
 }
 
 .description {
-    padding: 50px;
+    padding: 50px 30px 50px 30px;
     font-size: medium;
 }

@@ -1,10 +1,9 @@
 .contact-container {
     text-align: center;
-    width: 93vw;
     background-color: white;
     border: solid 3px black;
     border-radius: 25px;
-    margin: 15px 15px 50px 15px;
+    margin: 15px 15px 15px 15px;
     color: black;
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
@@ -18,4 +17,11 @@
     width: 75px;
     height: 75px;
     margin: 0 15px 0 15px;
+}
+
+@media screen and (max-width: 1300px) {
+    .contact-container {
+      width: 93vw;
+      margin-bottom: 50px;
+    }
 }

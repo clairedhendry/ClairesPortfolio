@@ -19,12 +19,10 @@
 
 .name {
     display: none;
-}
-
-p {
     color: black;
     font-size: 20pt;
 }
+
 
 .links > a {
     color: white;
@@ -93,7 +91,7 @@ p {
 }
 
 
-p {
+.name {
     color: white;
     font-size: 20pt;
 
